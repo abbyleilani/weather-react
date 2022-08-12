@@ -11,6 +11,7 @@ body {
   margin-top: 75px;
   border: 3px solid #6f42c1;
   border-radius: 10px;
+  background: white;
 }
 h1,
 h2 {
@@ -76,7 +77,7 @@ a:hover {
   font-size: 12px;
 }
 
-#search-form {
+.search-form {
   font-weight: 700;
   margin: 25px auto;
   padding: 15px;
@@ -89,8 +90,4 @@ a:hover {
 
 .source {
   margin-bottom: 25px;
-}
-
-.App {
-  margin: 20px;
 }
