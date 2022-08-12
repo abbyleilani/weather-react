@@ -66,7 +66,7 @@ export default function Weather() {
           </li>
         </ul>
         <p className="source">
-          <a href="https://github.com/abbyleilani/weather-project">
+          <a href="https://github.com/abbyleilani/weather-react">
             Open source code
           </a>
           {""} by Abbygayle Baker
