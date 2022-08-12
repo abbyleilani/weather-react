@@ -31,7 +31,7 @@ export default function Weather() {
               <input
                 type="submit"
                 value="Search"
-                className="form-control btn btn-primary shadow-sm w-100"
+                className="form-control search-btn"
               />
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function Weather() {
           <a href="https://github.com/abbyleilani/weather-project">
             Open source code
           </a>
-          by Abbygayle Baker
+          {""} by Abbygayle Baker
         </p>
       </div>
     </div>

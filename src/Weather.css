@@ -48,13 +48,17 @@ a:hover {
   color: #6f42c1;
 }
 
-.btn {
+.search-btn {
   background-color: #6f42c1;
   border-color: #6f42c1;
   font-weight: 600;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px 10px;
+  margin: 25px;
 }
 
-.btn:hover {
+.search-btn:hover {
   background-color: #ffb2ed;
   color: #6f42c1;
   border: solid 2px #6f42c1;
