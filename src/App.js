@@ -7,6 +7,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Weather city="Tokyo" />
+        <p className="source">
+          <a
+            href="https://github.com/abbyleilani/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open source code
+          </a>
+          {""} by Abbygayle Baker
+        </p>
       </header>
     </div>
   );
