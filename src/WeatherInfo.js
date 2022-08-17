@@ -6,7 +6,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div className="row">
         <div className="col-6">
-          <h1>????</h1>
+          <h1>{props.data.city} </h1>
           <ul>
             {" "}
             <li>
@@ -14,8 +14,8 @@ export default function WeatherInfo(props) {
               <DateFormat date={props.data.date} />{" "}
             </li>
             <li> {props.data.description} </li>
-            <li>humidity:{props.data.humidity} </li>
-            <li>wind: {props.data.wind} </li>
+            <li>humidity: {props.data.humidity}% </li>
+            <li>wind: {Math.round(props.data.wind)} mph</li>
           </ul>
         </div>
         <div className="col-6">
