@@ -15,6 +15,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
+      icon: response.data.weather[0].icon,
     });
     setReady(true);
   }
@@ -39,7 +40,7 @@ export default function Weather(props) {
       <div className="container">
         <form onSubmit={handleSubmit}>
           <div className="row">
-            <div className="col-9">
+            <div className="col-6">
               <input
                 type="search"
                 placeholder="enter a city"
@@ -47,7 +48,7 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-3">
+            <div className="col-6">
               <input type="submit" value="search" />
             </div>
           </div>
