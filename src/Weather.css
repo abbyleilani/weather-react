@@ -14,7 +14,8 @@ body {
 }
 
 .search-bar {
-  border-color: #53d42a;
+  border-color: #fdeaff;
+  background-color: #fdeaff;
 }
 
 .search-button {
@@ -23,7 +24,6 @@ body {
   background-color: #bd33c6;
   color: white;
   font-size: 14px;
-  border-color: #53d42a;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 }
 
