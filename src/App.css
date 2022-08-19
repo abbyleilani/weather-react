@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+  color: #bd33c6;
+}
+
+a:hover {
+  color: #47e018;
+  transition: all 350ms ease-in-out;
+}
+
+.source {
+  text-align: center;
+  font-size: 12px;
+}

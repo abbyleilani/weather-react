@@ -1,17 +1,34 @@
 html {
   min-height: 100%;
-  background-color: #f2eff9;
+  background-color: #faa3ff;
 }
 body {
-  max-width: 600px;
+  max-width: 700px;
   height: 100%;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   margin: 75px auto;
-  border: 1px solid #6f42c1;
+  border: 1px solid #faa3ff;
   border-radius: 10px;
   background: white;
+  padding: 25px;
 }
-ul {
-  list-style: none;
-  text-align: left;
+
+.search-bar {
+  border-color: #53d42a;
+}
+
+.search-button {
+  border-radius: 10px;
+  padding: 12px 12px;
+  background-color: #bd33c6;
+  color: white;
+  font-size: 14px;
+  border-color: #53d42a;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+
+.search-button:hover {
+  background-color: #b4fc9c;
+  transition: all 350ms ease-in-out;
+  border: #b4fc9c;
 }
