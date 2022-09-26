@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
+import "./images/WeatherLogo.png";
 import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
+      <img src="./images/WeatherLogo.png" alt="logo" />
       <header>
         <div className="container">
           <Weather defaultCity="New York" />
