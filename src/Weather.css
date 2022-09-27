@@ -2,16 +2,6 @@ html {
   min-height: 100%;
   background-color: #eae7ec;
 }
-body {
-  max-width: 700px;
-  height: 100%;
-  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-  margin: 75px auto;
-  border: 1px solid #faa3ff;
-  border-radius: 10px;
-  background: white;
-  padding: 25px;
-}
 
 .search-bar {
   border-color: #fdeaff;

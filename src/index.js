@@ -8,6 +8,10 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <div>
+      {" "}
+      <img src="./images/WeatherLogo.png" alt="logo" className="WeatherLogo" />
+    </div>
     <App />
   </React.StrictMode>
 );
