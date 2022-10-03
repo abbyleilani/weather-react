@@ -1,8 +1,3 @@
-html {
-  min-height: 100%;
-  background-color: #eae7ec;
-}
-
 .search-bar {
   border-color: #fdeaff;
   background-color: #fdeaff;
@@ -23,3 +18,6 @@ html {
   border: #b4fc9c;
 }
 
+.Weather {
+  margin-top: 100px;
+}

@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header>
         <div className="container">
-          <Weather defaultCity="New York" />
+          <Weather defaultCity="San Francisco" />
           <p className="source">
             <a
               href="https://github.com/abbyleilani/weather-react"
